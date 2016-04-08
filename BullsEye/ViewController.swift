@@ -11,13 +11,14 @@ import UIKit
 class ViewController: UIViewController {
   var currentValue: Int = 0
   @IBOutlet weak var slider: UISlider!
+  @IBOutlet weak var targetLabel: UILabel!
   var targetValue: Int = 0
 
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    currentValue = lroundf(slider.value)
-    targetValue = 1 + Int(arc4random_uniform(100))
+    startNewRound()
+    updateLabels()
     
     // Do any additional setup after loading the view, typically from a nib.
   }
@@ -37,10 +38,23 @@ class ViewController: UIViewController {
     alert.addAction(action)
     
     presentViewController(alert, animated: true, completion: nil)
+    startNewRound()
+    updateLabels()
   }
   
   @IBAction func sliderMoved(slider: UISlider){
-    
   }
+  
+  func startNewRound(){
+    targetValue = 1 + Int(arc4random_uniform(100))
+    currentValue = 50
+    slider.value = Float(currentValue)
+  }
+  
+  func updateLabels() {
+    targetLabel.text = String(targetValue)
+  }
+  
+
 }
 
