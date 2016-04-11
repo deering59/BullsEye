@@ -71,7 +71,8 @@ class ViewController: UIViewController {
   }
   
   @IBAction func sliderMoved(slider: UISlider){
-//    print(slider.value)
+    print(Int(slider.value))
+    currentValue = Int(slider.value)
   }
   
   func startNewRound(){
