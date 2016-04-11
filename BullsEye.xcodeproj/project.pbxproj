@@ -11,9 +11,10 @@
 		93065AF51CB3A71800350F74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93065AF41CB3A71800350F74 /* ViewController.swift */; };
 		93065AF81CB3A71800350F74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93065AF61CB3A71800350F74 /* Main.storyboard */; };
 		93065AFA1CB3A71800350F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93065AF91CB3A71800350F74 /* Assets.xcassets */; };
-		93065AFD1CB3A71800350F74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93065AFB1CB3A71800350F74 /* LaunchScreen.storyboard */; };
 		930A74521CBB94D3004969B7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930A74501CBB9090004969B7 /* AboutViewController.swift */; };
 		930A74561CBBD51B004969B7 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 930A74551CBBD51B004969B7 /* BullsEye.html */; };
+		930A74591CBBE324004969B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 930A74571CBBE324004969B7 /* Default-568h@2x.png */; };
+		930A745A1CBBE324004969B7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 930A74581CBBE324004969B7 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +23,11 @@
 		93065AF41CB3A71800350F74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93065AF71CB3A71800350F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93065AF91CB3A71800350F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		93065AFC1CB3A71800350F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93065AFE1CB3A71800350F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		930A74501CBB9090004969B7 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		930A74551CBBD51B004969B7 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		930A74571CBBE324004969B7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		930A74581CBBE324004969B7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,13 @@
 		93065AF11CB3A71800350F74 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				930A74571CBBE324004969B7 /* Default-568h@2x.png */,
+				930A74581CBBE324004969B7 /* Default@2x.png */,
 				93065AF21CB3A71800350F74 /* AppDelegate.swift */,
 				93065AF41CB3A71800350F74 /* ViewController.swift */,
 				930A74501CBB9090004969B7 /* AboutViewController.swift */,
 				93065AF61CB3A71800350F74 /* Main.storyboard */,
 				93065AF91CB3A71800350F74 /* Assets.xcassets */,
-				93065AFB1CB3A71800350F74 /* LaunchScreen.storyboard */,
 				93065AFE1CB3A71800350F74 /* Info.plist */,
 			);
 			path = BullsEye;
@@ -129,8 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93065AFD1CB3A71800350F74 /* LaunchScreen.storyboard in Resources */,
 				930A74561CBBD51B004969B7 /* BullsEye.html in Resources */,
+				930A74591CBBE324004969B7 /* Default-568h@2x.png in Resources */,
+				930A745A1CBBE324004969B7 /* Default@2x.png in Resources */,
 				93065AFA1CB3A71800350F74 /* Assets.xcassets in Resources */,
 				93065AF81CB3A71800350F74 /* Main.storyboard in Resources */,
 			);
@@ -158,14 +162,6 @@
 				93065AF71CB3A71800350F74 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		93065AFB1CB3A71800350F74 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93065AFC1CB3A71800350F74 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
