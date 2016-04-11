@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BullsEye/ViewController.swift"
-            timestampString = "481808728.768673"
+            timestampString = "482052313.083712"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "showAlert()"
             landmarkType = "5">
          </BreakpointContent>
