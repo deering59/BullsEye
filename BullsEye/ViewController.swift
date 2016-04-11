@@ -19,6 +19,23 @@ class ViewController: UIViewController {
   @IBOutlet weak var roundLabel: UILabel!
   
   override func viewDidLoad() {
+    let thumbImageNormal = UIImage(named: "SliderThumb-Normal")
+    slider.setThumbImage(thumbImageNormal, forState: .Normal)
+    
+    let thumbImageHighlighted = UIImage(named: "SliderThumb-Highlighted")
+    slider.setThumbImage(thumbImageHighlighted, forState: .Highlighted)
+    
+    let insets = UIEdgeInsets(top: 0, left: 14, bottom: 0, right: 14)
+    
+    if let trackerLeftImage = UIImage(named: "SliderTrackLeft") {
+      let trackerLeftResizable = trackerLeftImage.resizableImageWithCapInsets(insets)
+      slider.setMinimumTrackImage(trackerLeftResizable, forState: .Normal)
+    }
+    
+    if let trackRightImage = UIImage(named: "SliderTrackRight") {
+      let trackRightResizable = trackRightImage.resizableImageWithCapInsets(insets)
+      slider.setMaximumTrackImage(trackRightResizable, forState: .Normal)
+    }
     super.viewDidLoad()
     startNewGame()
     updateLabels()

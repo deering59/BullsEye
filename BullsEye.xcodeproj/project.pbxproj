@@ -13,6 +13,7 @@
 		93065AFA1CB3A71800350F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93065AF91CB3A71800350F74 /* Assets.xcassets */; };
 		93065AFD1CB3A71800350F74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93065AFB1CB3A71800350F74 /* LaunchScreen.storyboard */; };
 		930A74521CBB94D3004969B7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930A74501CBB9090004969B7 /* AboutViewController.swift */; };
+		930A74561CBBD51B004969B7 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 930A74551CBBD51B004969B7 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		93065AFC1CB3A71800350F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93065AFE1CB3A71800350F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		930A74501CBB9090004969B7 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		930A74551CBBD51B004969B7 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		93065AE61CB3A71800350F74 = {
 			isa = PBXGroup;
 			children = (
+				930A74551CBBD51B004969B7 /* BullsEye.html */,
 				93065AF11CB3A71800350F74 /* BullsEye */,
 				93065AF01CB3A71800350F74 /* Products */,
 			);
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93065AFD1CB3A71800350F74 /* LaunchScreen.storyboard in Resources */,
+				930A74561CBBD51B004969B7 /* BullsEye.html in Resources */,
 				93065AFA1CB3A71800350F74 /* Assets.xcassets in Resources */,
 				93065AF81CB3A71800350F74 /* Main.storyboard in Resources */,
 			);
